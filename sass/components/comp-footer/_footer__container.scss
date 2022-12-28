@@ -1,0 +1,24 @@
+// .footer__container {
+//     display: flex;
+//     width: 1200px;
+//     margin: 0 auto;
+//     padding-left: 15px;
+//     padding-right: 15px
+// }
+
+// //////////////////////////////--------------МОБИЛЬНАЯ ВЕРСИЯ----------------//////////////////////////////////////////
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
