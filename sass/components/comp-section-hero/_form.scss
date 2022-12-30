@@ -6,9 +6,7 @@
     outline: 1px solid $accent-color;
 
     border-radius: 4px;
-    box-shadow: 0px 1px 3px rgba(224, 222, 222, 0.12),
-            0px 1px 1px rgba(206, 204, 204, 0.14),
-            0px 2px 1px rgba(195, 193, 193, 0.2);
+    box-shadow: 0px 1px 8px 5px rgba(193, 243, 14, 0.4);
     background-color: $black-color;
 
     @media screen and (min-width: 1200px) {

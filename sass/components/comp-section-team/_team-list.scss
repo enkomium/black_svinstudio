@@ -22,13 +22,12 @@
                 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     outline: 2px solid $accent-color;
+
+    box-shadow: 0px 1px 8px 5px rgba(193, 243, 14, 0.4);
+    
     overflow: hidden;
 
     transition-duration: 500ms;
-
-    &:hover {
-        box-shadow: 0px 1px 8px 5px rgba(193, 243, 14, 0.4);
-    }
 
     @media screen and (min-width: 768px) {
         margin-left: 30px;
@@ -43,10 +42,15 @@
     }
 
     @media screen and (min-width: 1200px) {
+        box-shadow: none;
         margin-bottom: 0;
 
         &:nth-child(3) {
             margin-left: 30px;
+        }
+
+        &:hover {
+            box-shadow: 0px 1px 8px 5px rgba(193, 243, 14, 0.4);
         }
     }
 }
