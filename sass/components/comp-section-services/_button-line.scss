@@ -86,8 +86,9 @@
     line-height: 1.6;
     color: #212121;
 
-    background-color: #F5F4FA;
+    background-color: $accent-color;
     border-radius: 4px;
+    border: 1px solid $accent-color;
 
     text-decoration: none;
 
@@ -96,8 +97,8 @@
 
     &:hover,
     &:focus {
-        background-color: $accent-color;
-        color: $white-color;
+        background-color: $black-theme-color;
+        color: $accent-color;
 }
 }
 
