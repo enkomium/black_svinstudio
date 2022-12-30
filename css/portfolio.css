@@ -983,7 +983,13 @@ img {
   margin-bottom: 30px;
   outline: 2px solid #c1f30e;
   border-radius: 10px;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
   overflow: hidden;
+}
+.project-list__item:hover {
+  -webkit-box-shadow: 0px 1px 8px 5px rgba(193, 243, 14, 0.4);
+          box-shadow: 0px 1px 8px 5px rgba(193, 243, 14, 0.4);
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .project-list__item {
@@ -1009,15 +1015,8 @@ img {
 
 .project-card {
   position: relative;
-  -webkit-box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   -webkit-transition-duration: 500ms;
           transition-duration: 500ms;
-}
-.project-card:hover {
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  opacity: 1;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {

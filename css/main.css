@@ -1431,6 +1431,12 @@ img {
   border-radius: 10px;
   outline: 2px solid #c1f30e;
   overflow: hidden;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+.team-list__card:hover {
+  -webkit-box-shadow: 0px 1px 8px 5px rgba(193, 243, 14, 0.4);
+          box-shadow: 0px 1px 8px 5px rgba(193, 243, 14, 0.4);
 }
 @media screen and (min-width: 768px) {
   .team-list__card {
