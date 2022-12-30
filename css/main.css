@@ -1877,7 +1877,7 @@ img {
   height: 24px;
   margin-left: 10px;
   margin-bottom: 2px;
-  background-image: url(../../../images/form/icon_black.svg);
+  background-image: url(../images/form/icon_black.svg);
   background-size: contain;
   fill: #3d3e4b;
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1897,7 +1897,7 @@ img {
   display: inline-block;
   width: 24px;
   height: 24px;
-  background-image: url(../../../images/form/icon_black.svg);
+  background-image: url(../images/form/icon_black.svg);
   background-size: contain;
   -webkit-transform: translateY(calc(-50% + 50px));
           transform: translateY(calc(-50% + 50px));
